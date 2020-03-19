@@ -13,7 +13,7 @@
 ### 2. UML图示
 
 * 类
-  * <img src="./imageReferences/类.png" alt="类" style="zoom: 67%;" />
+  * ![类](https://github.com/CSLP/Programming-philosophy/blob/master/DesignPattern%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/imageReferences/%E7%B1%BB.PNG)
   * 
   * 
 
