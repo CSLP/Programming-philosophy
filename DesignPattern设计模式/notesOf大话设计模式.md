@@ -13,7 +13,7 @@
 ### 2. UML图示
 
 * 类
-  * <img src="./imageReferences/类.png" alt="类" style="zoom: 67%;" />
+  * ![类]()
   * 
   * 
 
