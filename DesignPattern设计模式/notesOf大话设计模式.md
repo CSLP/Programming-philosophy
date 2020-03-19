@@ -13,6 +13,7 @@
 ### 2. UML图示
 
 * 类
+  * ![类](https://github.com/CSLP/Programming-philosophy/blob/master/imageReferences/%E7%B1%BB.PNG)
   * 
   * 
 
