@@ -13,7 +13,11 @@
 ### 2. UML图示
 
 * 类
+<<<<<<< HEAD
   * ![类]()
+=======
+  * ![类](https://github.com/CSLP/Programming-philosophy/blob/master/DesignPattern%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/imageReferences/%E7%B1%BB.PNG)
+>>>>>>> 1c2575650f8e04dc5f8adc81da267738f692a98b
   * 
   * 
 
