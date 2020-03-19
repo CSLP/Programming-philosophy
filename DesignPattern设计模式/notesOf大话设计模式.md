@@ -13,7 +13,7 @@
 ### 2. UML图示
 
 * 类
-  * ![类](E:\Black\program\Programming-philosophy\imageReferences\捕获.PNG)
+  * 
   * 
 
 ​	
