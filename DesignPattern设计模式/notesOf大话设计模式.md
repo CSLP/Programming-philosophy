@@ -75,6 +75,10 @@
 * 注：
   * 促销类指不同的大促销方式，比如满减或打折。
   * 促销方式指的是同一种促销类（大促销方式）有不同的促销方式，比如同样是折扣，有1,2,3折等等。显然虽说是同一个促销类，但是要增加一种促销方式的话虽说不用增加促销类，但是得在简单工厂中增加这个促销方式。
+* ![简单工厂模式.PNG](https://upload-images.jianshu.io/upload_images/8438096-a8ccee0019c4414b.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+* ![简单工厂模式商品促销.PNG](https://upload-images.jianshu.io/upload_images/8438096-9fdaaf0420c0c99d.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+* 乍一看简单工厂模式和策略模式挺像的，其实误解。注意，简单工厂模式的核心是面对一堆类，创建一个工厂类，专门用来选择实例化那个类对象。
+* 而策略模式是针对实现同一个功能，可以有好多种算法（策略），将他们统一抽象为策略类。
 
 ### 2. 策略模式（Strategy)
 
@@ -90,6 +94,8 @@
   * 当不同的行为堆砌在一个类中时，就很难避免使用条件语句来选择合适的行为。将这些行为封装在一个个独立的Strategy类中，可以**在使用这些行为的类**中消除条件语句[DP] 
   * 策略模式就是用来封装算法的，但在实践中，我们发现可以用它来封装几乎任何类型的规则，只要在分析过程中听到需要在不同时间应用不同的业务规则，就可以考虑使用策略模式处理这种变化的可能性[DPE] 
   * 在基本的策略模式中，选择所用具体实现的职责由客户端对象承担，并转给策略模式的Context对象[DPE] （这本身并没有解除客户端需要选择判断的压力，而策略模式与简单工厂模式结合后，选择具体实现的职责也可以由Context来承担，这就最大化地减轻了 客户端的职责。）
+
+* ![策略模式.PNG](https://upload-images.jianshu.io/upload_images/8438096-3e7df732927bbe13.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 三. 拍摄UFO-单一职责原则
 
@@ -186,6 +192,8 @@
 * **需要把所需的功能按正确的顺序串联起来进行控制**
 
 ### 1. 装饰模式（Decorator）
+
+* ![装饰模式.PNG](https://upload-images.jianshu.io/upload_images/8438096-472b807aa21468b4.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 * ##### 定义
 
